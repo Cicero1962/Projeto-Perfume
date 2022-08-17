@@ -33,7 +33,6 @@
 }
 
 .chanel {
-    margin: 0 auto;
     font-size: 44px;
     font-weight: 700px;
 }
@@ -43,7 +42,7 @@
     font-weight: 400px;
     color: #6c7289;
     line-height: 1.5;
-    margin: 0 auto;
+   
 }
 
 .container_texto {
@@ -54,14 +53,12 @@
     gap: 25px;
     background-color: white;
     border-radius: 0 20px 20px 0;
-    padding-top: 30px;
-   
+    padding: 20px 40px;
 }
 
 .texto_span {
     color: #6c7289;
     font-size: 16px;
-    padding-left:45px;
     letter-spacing: 5px;
 }
 
@@ -69,7 +66,7 @@
     display: flex;
     gap: 40px;
     align-items: center;
-    margin: 0 auto;
+   
 }
 
 .card_promocao {
@@ -104,7 +101,6 @@
     background-color: #3d8067;
     color: white;
     cursor: pointer;
-    margin: 0 auto;
 }
 
 .btn:hover {
@@ -134,7 +130,7 @@ body {
     }
 
     .texto_span{
-       padding-left: 35px;
+       
        letter-spacing: 5px; 
     }
 
@@ -146,7 +142,6 @@ body {
         display: block;
         max-width: 100%;
         border-radius: 20px 20px 0 0;
-       
     }
 
     .container_texto {
@@ -154,6 +149,22 @@ body {
         gap: 10px;
         border-radius: 0 0 20px 20px;
         flex-direction: column;
+    }
+
+    .chanel{
+        font-size: 40px;
+    }
+
+    .card_descricao{
+        font-size: 14px;
+    }
+
+    .card_promocao{
+        font-size: 36px;
+    }
+
+    .card_normal{
+        font-size: 12px;
     }
     .btn{
         margin-bottom: 20px;
