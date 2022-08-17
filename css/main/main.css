@@ -1,0 +1,161 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+    background-color: #f2ebe3;
+    justify-content: center;
+}
+
+.img_perfume {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.perfume {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+
+}
+
+.main_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+    height: 550px;
+    
+}
+
+.chanel {
+    margin: 0 auto;
+    font-size: 44px;
+    font-weight: 700px;
+}
+
+.card_descricao {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #6c7289;
+    line-height: 1.5;
+    margin: 0 auto;
+}
+
+.container_texto {
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+    flex-direction: column;
+    gap: 25px;
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    padding-top: 30px;
+   
+}
+
+.texto_span {
+    color: #6c7289;
+    font-size: 16px;
+    padding-left:45px;
+    letter-spacing: 5px;
+}
+
+.card_preco {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.card_promocao {
+    display: inline-flex;
+    font-size: 40px;
+    color: #3c8067;
+    font-weight: 700;
+    text-align: center;
+}
+
+.card_normal {
+    color: #6c7289;
+    font-size: 14px;
+    text-decoration: line-through;
+    font-weight: 400px;
+}
+
+.btn_card {
+    display: flex;
+    width: 100%;
+}
+
+.btn {
+    display: flex;
+    width: 100%;
+    max-width: 280px;
+    justify-content: center;
+    gap: 20px;
+    padding: 12px 0;
+    border-radius: 10px;
+    border: none;
+    background-color: #3d8067;
+    color: white;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    background-color: #2f4c41;
+}
+
+.card_mobile {
+    display: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+@media(max-width:560px) {
+    .main_container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 550px;
+        height: auto;
+        padding:20px;
+    }
+
+    .texto_span{
+       padding-left: 35px;
+       letter-spacing: 5px; 
+    }
+
+    .perfume {
+        display: none;
+    }
+
+    .card_mobile {
+        display: block;
+        max-width: 100%;
+        border-radius: 20px 20px 0 0;
+       
+    }
+
+    .container_texto {
+        max-width: 560px;
+        gap: 10px;
+        border-radius: 0 0 20px 20px;
+        flex-direction: column;
+    }
+    .btn{
+        margin-bottom: 20px;
+    }
+}
